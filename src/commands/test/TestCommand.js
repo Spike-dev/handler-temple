@@ -1,11 +1,19 @@
 const BaseCommand = require('../../utils/structures/BaseCommand');
-
-module.exports = class TestCommand extends BaseCommand {
+const { Message, Client } = require('discord.js');
+module.exports = class NameCommand extends BaseCommand {
   constructor() {
-    super('test', 'testing', []);
+    super('name', 'cateogry', [], 'desc', 'null');
   }
 
+  /***
+   * @param {Message} message
+   * @param {Client} client
+   * @param {Message} e
+   * @param {Class} Variable
+   ***/
   async run(client, message, args) {
-    message.channel.send('Test command works');
+  
+    message.channel.send("Hello U !!!")
+  
   }
-}
+};
