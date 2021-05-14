@@ -3,12 +3,16 @@
 ---
 You need to install [Node.JS](https://nodejs.org/en/download/)
 ```
-$ git clone https://github.com/Spike-dev/handler-temple
+ git clone https://github.com/Spike-dev/handler-temple
+```
+```
+npm install 
+```
+```
+ npm start 
 ```
 
-```
-$ npm start 
-```
+
 
 ![Examples Commands ](https://s12.directupload.net/images/200912/ro2er264.png)
 
