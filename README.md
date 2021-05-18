@@ -42,6 +42,10 @@ module.exports = class NameCommand extends BaseCommand {
 
 Support Discord Server
 ---
-```
-https://discord.gg/Trj64yANAh
-```
+
+<p align="center">
+<a href="https://discord.gg/HhybNhchcC">
+  <img src="https://invidget.switchblade.xyz/HhybNhchcC" align="center" >
+</a>
+</p>
+
