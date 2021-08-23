@@ -27,7 +27,6 @@ module.exports = class NameCommand extends BaseCommand {
   /***
    * @param {Message} message
    * @param {Client} client
-   * @param {Message} e
    * @param {Message} member
    ***/
   async run(client, message, args) {}
