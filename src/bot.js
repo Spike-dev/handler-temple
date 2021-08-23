@@ -1,7 +1,7 @@
 require('dotenv').config();
-const { Client } = require('discord.js');
+const { Client, Intents } = require('discord.js');
 const { registerCommands, registerEvents } = require('./utils/registry');
-const client = new Client();
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
 (async () => {
   client.commands = new Map();
